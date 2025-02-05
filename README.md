@@ -1,1 +1,1 @@
-"# Just some scripts" 
+# Just some scripts

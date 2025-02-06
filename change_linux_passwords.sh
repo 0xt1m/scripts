@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SKIP_USERS=("root" "seccdc")
+SKIP_USERS=("root" "seccdc") # Will be changed depending on what is the name of seccdc user
 PASSWORDS_FILE="passwords.txt"
 
 get_linux_users() {

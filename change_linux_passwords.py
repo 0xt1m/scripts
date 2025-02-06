@@ -2,7 +2,7 @@ import subprocess
 import random
 import string
 
-SKIP_USERS = ['root', 'seccdc']
+SKIP_USERS = ['root', 'seccdc'] # Will be changed depending on what is the name of seccdc user
 
 def get_linux_users():
     with open("/etc/passwd", "r") as f:
